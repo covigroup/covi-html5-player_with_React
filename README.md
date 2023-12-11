@@ -28,34 +28,34 @@
 <br>
 
 ### 목차
-  + [React 함수형 컴포넌트 연동]()
-    - [Script 태그 동적 삽입]()
-      * [`useEffect`로 Script 태그 삽입 로직 처리]()
-      * [`src/customHooks` 디렉터리에서 `useScript.jsx` 파일 생성]()
+  + [React 함수형 컴포넌트 연동](https://github.com/covigroup/covi-html5-player_with_React/tree/main#react-%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%97%B0%EB%8F%99)
+    - [Script 태그 동적 삽입](https://github.com/covigroup/covi-html5-player_with_React/tree/main#script-%ED%83%9C%EA%B7%B8-%EB%8F%99%EC%A0%81-%EC%82%BD%EC%9E%85)
+      * [`useEffect`로 Script 태그 삽입 로직 처리](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-useeffect%EB%A1%9C-script-%ED%83%9C%EA%B7%B8-%EC%82%BD%EC%9E%85-%EB%A1%9C%EC%A7%81%EC%9D%84-%EC%B2%98%EB%A6%AC%ED%95%A9%EB%8B%88%EB%8B%A4)
+      * [`src/customHooks` 디렉터리에서 `useScript.jsx` 파일 생성](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-srccustomhooks-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%EC%97%90%EC%84%9C-usescriptjsx-%ED%8C%8C%EC%9D%BC%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%A9%EB%8B%88%EB%8B%A4)
      
-    - [Covi 플레이어 생성 및 SDK 적용]()
-      * [`className`이 `covi_player`인 video element를 리턴하는 `PlayerSample` 컴포넌트 생성]()
-      * [`PlayerSample` 컴포넌트에 COVI SDK 적용]()
+    - [Covi 플레이어 생성 및 SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%83%9D%EC%84%B1-%EB%B0%8F-sdk-%EC%A0%81%EC%9A%A9)
+      * [`className`이 `covi`'인 div element를 생성](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%A9%EB%8B%88%EB%8B%A4)
+      * [COVI Player SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EC%97%90-covi-player-sdk%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
      
-    - [Covi 플레이어 정리]()
-      * [함수형 컴포넌트가 언마운트되는 시점에 disposeCoviplayers SDK 내장 함수를 사용]()
+    - [Covi 플레이어 정리](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%A0%95%EB%A6%AC)
+      * [함수형 컴포넌트가 언마운트되는 시점에 disposeCoviplayers SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80-%EC%96%B8%EB%A7%88%EC%9A%B4%ED%8A%B8%EB%90%98%EB%8A%94-%EC%8B%9C%EC%A0%90%EC%97%90-disposecoviplayers-sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
 
-    - [SDK 내장 함수 사용]()
-      * [runCoviSdk()]()
-      * [initCoviSdk()]()
+    - [SDK 내장 함수 사용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)
+      * [runCoviPlayer()](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-runcoviplayer)
+      * [disposeCoviplayers()](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-disposecoviplayers)
 
-  + [이벤트 트래킹 로그 전송 체크]()
-    - [이벤트 트래킹(Event Tracking)]()
-    - [COVI SDK가 적용된 비디오 플레이어의 진행 시간에 따른 이벤트 트래킹 체크]()
-    - [클릭을 통해 광고주 랜딩 페이지로 이동했을 때 이벤트 트래킹 체크]()
-    - [이벤트 트래킹 로그별 전송 시점]()
+  + [이벤트 트래킹 로그 전송 체크](https://github.com/covigroup/covi-html5-player_with_React/tree/main#%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9-%EB%A1%9C%EA%B7%B8-%EC%A0%84%EC%86%A1-%EC%B2%B4%ED%81%AC)
+    - [이벤트 트래킹(Event Tracking)](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9event-tracking)
+    - [COVI SDK가 적용된 비디오 플레이어의 진행 시간에 따른 이벤트 트래킹 체크](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-1-covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EA%B4%91%EA%B3%A0-%EC%98%81%EC%83%81-%EC%A7%84%ED%96%89-%EC%8B%9C%EA%B0%84%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9-%EC%B2%B4%ED%81%AC)
+    - [클릭을 통해 광고주 랜딩 페이지로 이동했을 때 이벤트 트래킹 체크](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-2-%ED%81%B4%EB%A6%AD%EC%9D%84-%ED%86%B5%ED%95%B4-%EA%B4%91%EA%B3%A0%EC%A3%BC-%EB%9E%9C%EB%94%A9-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%96%88%EC%9D%84-%EB%95%8C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9-%EC%B2%B4%ED%81%AC)
+    - [이벤트 트래킹 로그별 전송 시점](https://github.com/covigroup/covi-html5-player_with_React/tree/main#3-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8A%B8%EB%9E%98%ED%82%B9-%EB%A1%9C%EA%B7%B8%EB%B3%84-%EC%A0%84%EC%86%A1-%EC%8B%9C%EC%A0%90)
 
-  + [가시성 측정 체크]()
-    - [가시성(Viewability)]()
-    - [가시성 측정 프로세스]()
-    - [COVI SDK가 적용된 동영상 플레이어의 가시성 측정이 정상 작동하는지 체크]()
+  + [가시성 측정 체크](https://github.com/covigroup/covi-html5-player_with_React/tree/main#%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95-%EC%B2%B4%ED%81%AC)
+    - [가시성(Viewability)](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-%EA%B0%80%EC%8B%9C%EC%84%B1viewability)
+    - [가시성 측정 프로세스](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+    - [COVI 플레이어의 가시성 측정이 정상 작동하는지 체크](https://github.com/covigroup/covi-html5-player_with_React#3-COVI-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EC%9D%98-%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95%EC%9D%B4-%EC%A0%95%EC%83%81-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EC%A7%80-%EC%B2%B4%ED%81%AC)
 
-  + [참조]()
+  + [참조](https://github.com/covigroup/covi-html5-player_with_React#%EC%B0%B8%EC%A1%B0)
 
 <br>
 
@@ -261,7 +261,7 @@ COVI Player 인스턴스를 생성하고 로드합니다.
 
 <img width="1217" alt="image" src="https://github.com/covigroup/covi-html5-player_with_React/assets/122589688/d915ebe8-bc5d-498f-8722-2b224892b916">
 
-### 3) COVI SDK가 적용된 동영상 플레이어의 가시성 측정이 정상 작동하는지 체크하기
+### 3) COVI 플레이어의 가시성 측정이 정상 작동하는지 체크하기
 
 - [x] 화면에 동영상 플레이어가 100% 노출 될 때 재생 되는지 확인
 - [x] 화면에 동영상 플레이어기 100% 노출 안될 때 일시 정지 되는지 확인
