@@ -135,7 +135,7 @@ export default function useScript(url) {
 ### 1) `className`이 `'covi'`인 div element를 생성합니다.
 
 ```
-<div className='covi'></div>;
+<div className='covi'></div>;
 ```
 
 <br>
