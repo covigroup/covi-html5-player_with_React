@@ -14,11 +14,11 @@
 <div>
   <ul>
     <p>
-    <li>Covi 플레이어에는 Covi SDK 기능들이 포함</li>
+    <li>Covi 플레이어에 Covi SDK 기능이 포함됨</li>
         <ul>
-          <li>이벤트 트래킹 로그 전송, 가시성 체크, VAST 3.0 XML 요청 및 응답결과 파싱</li> <p>
+          <li>Covi SDK 기능 : 이벤트 트래킹 로그 전송, 가시성 체크, VAST 3.0 XML 요청 및 응답결과 파싱</li> <p>
        </ul>
-    <li>Covi 플레이어가 제공하는 기능 : 각종 영상 재생, 정지, 종료 등을 제어</li>
+    <li>Covi 플레이어 탑재 기능 : 플레이어 UI-UX, 영상 재생, 영상 정지, 영상 종료, 영상 포커싱 감지, 영상 가시성 감지</li>
   </ul>
 </div>
 </details>
