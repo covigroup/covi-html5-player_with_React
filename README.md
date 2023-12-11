@@ -53,7 +53,7 @@
   + [가시성 측정 체크](https://github.com/covigroup/covi-html5-player_with_React/tree/main#%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95-%EC%B2%B4%ED%81%AC)
     - [가시성(Viewability)](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-%EA%B0%80%EC%8B%9C%EC%84%B1viewability)
     - [가시성 측정 프로세스](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
-    - [COVI 플레이어의 가시성 측정이 정상 작동하는지 체크](https://github.com/covigroup/covi-html5-player_with_React#3-COVI-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EC%9D%98-%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95%EC%9D%B4-%EC%A0%95%EC%83%81-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EC%A7%80-%EC%B2%B4%ED%81%AC)
+    - [COVI 플레이어의 가시성 측정이 정상 작동하는지 체크](https://github.com/covigroup/covi-html5-player_with_React#3-covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EC%9D%98-%EA%B0%80%EC%8B%9C%EC%84%B1-%EC%B8%A1%EC%A0%95%EC%9D%B4-%EC%A0%95%EC%83%81-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EC%A7%80-%EC%B2%B4%ED%81%AC%ED%95%98%EA%B8%B0)
 
   + [참조](https://github.com/covigroup/covi-html5-player_with_React#%EC%B0%B8%EC%A1%B0)
 
