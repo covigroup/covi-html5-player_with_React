@@ -259,7 +259,7 @@ COVI Player 인스턴스를 생성하고 로드합니다.
 
 ### 2) 가시성 측정 프로세스
 
-<img width="1217" alt="image" src="https://github.com/covigroup/covi-html5-player_with_React/assets/122589688/d915ebe8-bc5d-498f-8722-2b224892b916">
+<img width="1200" alt="image" src="https://github.com/covigroup/covi-html5-player_with_React/assets/122589688/4d7c948b-e550-4f02-8240-49b83f108098">
 
 ### 3) COVI 플레이어의 가시성 측정이 정상 작동하는지 체크하기
 
