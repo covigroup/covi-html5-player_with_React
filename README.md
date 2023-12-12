@@ -141,7 +141,7 @@ export default function useScript(url) {
 <br>
 
 ### 2) `className`이 `covi`인 div element에 COVI Player SDK를 적용합니다.
-- 페이지를 렌더링하는 컴포넌트에서 `coviScriptStatus`와 `publisherScriptStatus`가 `ready`상태일 때 `runCoviplayer` [SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React/wiki/SDK-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)합니다.
+- 페이지를 렌더링하는 컴포넌트에서 `coviScriptStatus`와 `publisherScriptStatus`가 `ready`상태일 때 `runCoviplayer` [SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React#sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)합니다.
   + `runCoviplayer` : COVI Player 인스턴스를 생성하고 `className`이 `covi`인 div 요소에 SDK를 적용합니다.
 
 ```
@@ -179,7 +179,7 @@ export default Page;
 <br>
 
 ## Covi 플레이어 정리
-### 함수형 컴포넌트가 언마운트되는 시점에 `disposeCoviplayers` [SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React/wiki/SDK-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)합니다.
+### 함수형 컴포넌트가 언마운트되는 시점에 `disposeCoviplayers` [SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React#sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)합니다.
   + `disposeCoviplayers` : 모든 COVI Player 인스턴스를 정리(dispose) 합니다.
 
 > <주의> Covi 플레이어 정리를 위해 표준 DOM 제거 방법을 사용하지 마십시오. 
