@@ -35,6 +35,7 @@
      
     - [Covi 플레이어 생성 및 SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%83%9D%EC%84%B1-%EB%B0%8F-sdk-%EC%A0%81%EC%9A%A9)
       * [`className`이 `covi`인 div element를 생성](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%A9%EB%8B%88%EB%8B%A4)
+      * [SDK CDN 정보]()
       * [COVI Player SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EC%97%90-covi-player-sdk%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
      
     - [Covi 플레이어 정리](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%A0%95%EB%A6%AC)
@@ -140,9 +141,27 @@ export default function useScript(url) {
 
 <br>
 
-### 2) `className`이 `covi`인 div element에 COVI Player SDK를 적용합니다.
+### 2) SDK CDN 정보
+- Covi player SDK URL
+```
+https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js
+```
+
+- Publisher 스크립트 URL
+```
+매체 제휴를 진행하면서 전달받은 Publisher 스크립트 URL 사용 (전달받은 Publisher 스크립트 URL이 없을 시 COVI 개발자에게 문의해주세요)
+```
+
+> 위 CDN은 개발용입니다. 상용 서비스 전환 시 SDK CDN URL이 달라지므로 해당 URL에 대한 문의를 남겨주셔야 합니다.
+
+<br>
+
+### 3) `className`이 `covi`인 div element에 COVI Player SDK를 적용합니다.
+
 - 페이지를 렌더링하는 컴포넌트에서 `coviScriptStatus`와 `publisherScriptStatus`가 `ready`상태일 때 `runCoviplayer` [SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React#sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9)합니다.
   + `runCoviplayer` : COVI Player 인스턴스를 생성하고 `className`이 `covi`인 div 요소에 SDK를 적용합니다.
+
+
 
 ```
 import { useEffect } from 'react';
@@ -153,8 +172,8 @@ const Page = () => {
 
     const [isCoviSdkFirstLoaded, setIsCoviSdkFirstLoaded] = useState(true);
 
-    // useScript의 인수(coviscript src, publisher src)값은 COVI 개발자에게 문의해주세요.
-    const [coviScriptStatus, publisherScriptStatus] = [useScript('coviscript src'), useScript('publisher src')];
+    // Covi player SDK CDN Script 동적 삽입
+    const [coviScriptStatus, publisherScriptStatus] = [useScript('https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js'), useScript('전달받은 Publisher 스크립트 URL')];
 
     useEffect(() => {
         if (coviScriptStatus === 'ready' && publisherScriptStatus === 'ready' && isCoviSdkFirstLoaded === true) {
