@@ -184,7 +184,7 @@ export default Page;
 
 > <주의> Covi 플레이어 정리를 위해 표준 DOM 제거 방법을 사용하지 마십시오. 
 >
-> 표준 DOM 제거 방법을 사용하면 이벤트 리스너 및 Covi Player 인스턴스가 메모리에 남게 됩니다.
+> 표준 DOM 제거 방법을 사용하면 SDK 적용하면서 생성된 이벤트 리스너와 Covi Player 인스턴스가 메모리에 남게 됩니다.
 
 ```
     useEffect(() => {
