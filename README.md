@@ -35,8 +35,8 @@
      
     - [Covi 플레이어 생성 및 SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%83%9D%EC%84%B1-%EB%B0%8F-sdk-%EC%A0%81%EC%9A%A9)
       * [`className`이 `covi`인 div element를 생성](https://github.com/covigroup/covi-html5-player_with_React/tree/main#1-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%A9%EB%8B%88%EB%8B%A4)
-      * [SDK CDN 정보]()
-      * [COVI Player SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EC%97%90-covi-player-sdk%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
+      * [SDK CDN 정보](https://github.com/covigroup/covi-html5-player_with_React/tree/main#2-sdk-cdn-%EC%A0%95%EB%B3%B4)
+      * [COVI Player SDK 적용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#3-classname%EC%9D%B4-covi%EC%9D%B8-div-element%EC%97%90-covi-player-sdk%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
      
     - [Covi 플레이어 정리](https://github.com/covigroup/covi-html5-player_with_React/tree/main#covi-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%A0%95%EB%A6%AC)
       * [함수형 컴포넌트가 언마운트되는 시점에 `disposeCoviplayers` SDK 내장 함수를 사용](https://github.com/covigroup/covi-html5-player_with_React/tree/main#%ED%95%A8%EC%88%98%ED%98%95-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80-%EC%96%B8%EB%A7%88%EC%9A%B4%ED%8A%B8%EB%90%98%EB%8A%94-%EC%8B%9C%EC%A0%90%EC%97%90-disposecoviplayers-sdk-%EB%82%B4%EC%9E%A5-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A9%EB%8B%88%EB%8B%A4)
