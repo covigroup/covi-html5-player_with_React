@@ -152,7 +152,7 @@ https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js
 매체 제휴를 진행하면서 전달받은 Publisher 스크립트 URL 사용 (전달받은 Publisher 스크립트 URL이 없을 시 COVI 개발자에게 문의해주세요)
 ```
 
-> 위 CDN은 개발용입니다. 상용 서비스 전환 시 SDK CDN URL이 달라지므로 해당 URL에 대한 문의를 남겨주셔야 합니다.
+> 위 CDN은 개발용입니다. 상용 서비스 전환 시 SDK CDN URL이 달라지므로 상용 URL을 받아서 사용해야 합니다.
 
 <br>
 
