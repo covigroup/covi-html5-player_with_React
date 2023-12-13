@@ -142,7 +142,7 @@ export default function useScript(url) {
 <br>
 
 ### 2) SDK 정보
-- Covi player URL
+- Covi player SDK URL
 ```
 https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js
 ```
