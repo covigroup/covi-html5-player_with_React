@@ -141,8 +141,8 @@ export default function useScript(url) {
 
 <br>
 
-### 2) SDK CDN 정보
-- Covi player SDK URL
+### 2) SDK 정보
+- Covi player URL
 ```
 https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js
 ```
@@ -152,9 +152,9 @@ https://covi-plat-file.beta.covi.co.kr/player/js/coviplayer.js
 매체 제휴를 진행하면서 전달받은 Publisher 스크립트 URL 사용 (전달받은 Publisher 스크립트 URL이 없을 시 COVI 개발자에게 문의해주세요)
 ```
 
-> 위 CDN은 개발용입니다. 상용 서비스 전환 시 SDK CDN URL이 달라지므로 상용 URL을 받아서 사용해야 합니다. 
+> 위 SDK 스크립트는 개발용입니다. 상용 서비스 전환 시 SDK 스크립트의 URL이 달라지므로 상용 URL을 받아서 사용해야 합니다. 
 >
-> 개발용 CDN 적용해서 연동을 마친 후 COVI 매체 제휴 담당자에게 상용 URL 주소를 문의해 주세요.
+> 개발용 SDK를 적용해서 연동을 마친 후 COVI 매체 제휴 담당자에게 상용 URL 주소를 문의해 주세요.
 
 <br>
 
